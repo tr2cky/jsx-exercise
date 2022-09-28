@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+}
+.container > p {
+    font-size: 2rem;
+}

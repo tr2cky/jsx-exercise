@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    max-width: 500px;
+    gap: 1px;
+}
+.container > img {
+    width: 500px;
+}
+.container > p {
+    font-size: 2rem;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }

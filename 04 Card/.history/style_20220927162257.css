@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    max-width: 300px;
+    gap: 1px;
+}
+.container > img {
+    width: 300px;
+}
+.container > p, h2 {
+    font-size: 1rem;
+    border-bottom: 2px solid gray;
+}
