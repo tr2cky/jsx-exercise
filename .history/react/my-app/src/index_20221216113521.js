@@ -1,13 +1,15 @@
 import ReactDOM from "react-dom";
 import React from "react";
 
-let myfunction = function(name) {
-    const header = <h1>Hello, {name}</h1>;
-    return header
-}
+const hello = <h1>Hello World</h1>;
+console.log("hello");
 
 const root = document.querySelector('#root');
-ReactDOM.render(myfunction("Ali"), root);
+ReactDOM.render(myfunction("fatih"), root);
+let myfunction = function(name) {
+    const header = <h1>Hello, {name}</h1>;
+    console.log(header);
+}
 
 
 /* JSX - 02

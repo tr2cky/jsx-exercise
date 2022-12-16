@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom";
 import React from "react";
 
+
 let myfunction = function(name) {
     const header = <h1>Hello, {name}</h1>;
     return header
